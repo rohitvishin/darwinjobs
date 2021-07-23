@@ -68,7 +68,13 @@ class _ShowListState extends State<ShowList> {
                           Text("Designer Job",style: GoogleFonts.sourceSansPro(fontSize: 15,color: Colors.grey),),
                         ]
                       ),
-                      SizedBox(width: 210,),
+                      SizedBox(width: 120,),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Icon(Icons.alarm,color: Colors.greenAccent.shade700,size: 12,),
+                        ]
+                      ),
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children:
@@ -83,8 +89,45 @@ class _ShowListState extends State<ShowList> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
+                          Icon(Icons.place,color: Colors.greenAccent.shade700,size: 12,),
+                        ]
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
                           Text("Vagator, Goa",style: GoogleFonts.sourceSansPro(fontSize: 12,color: Colors.grey),),
+                        ]
+                      ),
+                      SizedBox(width: 150,),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children:
+                        [
+                          Text("CV Sent",style: GoogleFonts.sourceSansPro(fontSize: 12,color: Colors.grey),),
+                        ]
+                      ),
+                      SizedBox(width: 10,),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children:
+                        [
+                          Text("22",style: GoogleFonts.sourceSansPro(fontSize: 12,color: Colors.greenAccent.shade700),),
+                        ]
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Apply",style: GoogleFonts.sourceSansPro(fontSize: 12,color: Colors.greenAccent.shade700),),
                           
+                        ]
+                      ),
+                      Column(
+                        children: [
+                          Icon(Icons.arrow_forward,color: Colors.greenAccent.shade700,size: 12,),
                         ]
                       ),
                       SizedBox(width: 230,),
@@ -92,7 +135,7 @@ class _ShowListState extends State<ShowList> {
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children:
                         [
-                          Text("CV Sent",style: GoogleFonts.sourceSansPro(fontSize: 12,color: Colors.grey),),
+                          Icon(Icons.favorite_border,color: Colors.greenAccent.shade700,size: 14,),
                         ]
                       )
                     ],
